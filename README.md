@@ -7,6 +7,10 @@ Installation on debian / ubuntu:
 ```
 sudo apt-get install youtube-dl
 ```
+The following library is required by the Ruby script for XML parsing:
+```
+gem install nokogiri
+```
 
 Ruby script must be executable:
 
