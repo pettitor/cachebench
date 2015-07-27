@@ -1,12 +1,19 @@
 # cachebench
 
-Generate requests by getting video ids from popular vimeo channels and downloading them according to the secified rate and popularity distribution with Zipf exponent alpha.
+Generate requests by getting video ids from popular vimeo channels and downloading them according to the specified rate and popularity distribution with Zipf exponent alpha.
 
 youtube-dl is required to download the videos. More information on https://rg3.github.io/youtube-dl/ .
 Installation on debian / ubuntu:
 ```
 sudo apt-get install youtube-dl
 ```
+Install ruby and libraries necessary, if not available on the system. In case of ubuntu you can try the following:
+
+```
+sudo apt-get install ruby1.9
+sudo apt-get install libxslt-dev libxml2-dev zlib1g-dev
+```
+
 The following library is required by the Ruby script for XML parsing:
 ```
 gem install nokogiri
