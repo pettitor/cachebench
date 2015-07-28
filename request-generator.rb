@@ -5,7 +5,10 @@ require 'optparse'
 require 'ostruct'
 require 'pp'
 require 'open3'
-	  
+
+require 'openssl'
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+
 class Parser
 	def self.parse(args)
 		options = OpenStruct.new
