@@ -20,7 +20,7 @@ class Parser
 			opts.banner = "Usage: ./request-generator.rb [options]"
 
 	    		opts.on('-n', '--number #REQUESTS', 'Number of requests') { |v| options.n = v}
-	  		opts.on('-r', '--rate RATE', 'Request rate') { |v| options.r = v }
+	  		opts.on('-r', '--rate RATE', 'Request rate per second') { |v| options.r = v }
 			opts.on('-a', '--alpha ALPHA', 'Zipf exponent alpha') { |v| options.a = v }
 			opts.on("-h", "--help", "Prints this help") do
 	  	              puts opts
