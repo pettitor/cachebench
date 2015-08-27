@@ -34,7 +34,7 @@ Usage:
 ./generate-requests.rb --help
 Usage: ./request-generator.rb [options]
     -n, --number #REQUESTS           Number of requests
-    -r, --rate RATE                  Request rate
+    -r, --rate RATE                  Request rate per second
     -a, --alpha ALPHA                Zipf exponent alpha
     -h, --help                       Prints this help
 ```
